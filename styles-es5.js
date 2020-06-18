@@ -15,16 +15,15 @@
     "./node_modules/css-loader/dist/runtime/api.js");
 
     exports = ___CSS_LOADER_API_IMPORT___(true);
-    exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap);"]);
-    exports.push([module.i, "@import url(https://fonts.googleapis.com/icon?family=Material+Icons);"]); // Module
+    exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap);"]); // Module
 
-    exports.push([module.i, "\n/* You can add global styles to this file, and also import other style files */\n*{\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: 'Ubuntu', sans-serif;\n}\n", "", {
+    exports.push([module.i, "\n/* You can add global styles to this file, and also import other style files */\n*{\n  font-family: 'MuseoModerno', cursive;\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\nhtml{\n  scroll-behavior: smooth;\n}\n", "", {
       "version": 3,
       "sources": ["styles.css"],
       "names": [],
-      "mappings": ";AAAA,8EAA8E;AAI9E;EACE,sBAAsB;EACtB,SAAS;EACT,UAAU;EACV,iCAAiC;AACnC",
+      "mappings": ";AAAA,8EAA8E;AAE9E;EACE,oCAAoC;EACpC,sBAAsB;EACtB,SAAS;EACT,UAAU;AACZ;AAEA;EACE,uBAAuB;AACzB",
       "file": "styles.css",
-      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\n@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');\n@import url('https://fonts.googleapis.com/icon?family=Material+Icons');\n\n*{\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: 'Ubuntu', sans-serif;\n}\n"]
+      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\n@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');\n*{\n  font-family: 'MuseoModerno', cursive;\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nhtml{\n  scroll-behavior: smooth;\n}\n"]
     }]); // Exports
 
     module.exports = exports;
@@ -466,7 +465,7 @@
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! /home/ricardo/WebstormProjects/Prueba1/src/styles.css */
+    /*! /home/ricardo/WebstormProjects/GitHubPage/src/styles.css */
     "./src/styles.css");
     /***/
   }
